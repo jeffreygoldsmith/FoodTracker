@@ -44,7 +44,7 @@
                                     <constraint firstItem="pC9-Rv-igj" firstAttribute="leading" secondItem="WET-G3-dSc" secondAttribute="leading" id="nm1-K7-6DT"/>
                                 </constraints>
                             </stackView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gJO-VK-fSy">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="Default Photo" translatesAutoresizingMaskIntoConstraints="NO" id="gJO-VK-fSy">
                                 <frame key="frameInset" minX="16" minY="193" width="320" height="320"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="gJO-VK-fSy" secondAttribute="height" multiplier="1:1" id="fQa-b2-TmF"/>
@@ -69,4 +69,7 @@
             <point key="canvasLocation" x="136.80000000000001" y="136.28185907046478"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Default Photo" width="72" height="72"/>
+    </resources>
 </document>
