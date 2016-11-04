@@ -38,18 +38,21 @@
                                             <action selector="setDefaultLabelText:" destination="BYZ-38-t0r" eventType="touchUpInside" id="due-J8-RGb"/>
                                         </connections>
                                     </button>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Default Photo" translatesAutoresizingMaskIntoConstraints="NO" id="qbs-Gp-sSY">
+                                        <gestureRecognizers/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="qbs-Gp-sSY" secondAttribute="height" multiplier="1:1" id="ekQ-kh-2Oo"/>
+                                        </constraints>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="C71-hS-R23" appends="YES" id="aiE-2h-cTv"/>
+                                        </connections>
+                                    </imageView>
                                 </subviews>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="pC9-Rv-igj" secondAttribute="trailing" id="F5Y-pW-7DS"/>
                                     <constraint firstItem="pC9-Rv-igj" firstAttribute="leading" secondItem="WET-G3-dSc" secondAttribute="leading" id="nm1-K7-6DT"/>
                                 </constraints>
                             </stackView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="Default Photo" translatesAutoresizingMaskIntoConstraints="NO" id="gJO-VK-fSy">
-                                <frame key="frameInset" minX="16" minY="193" width="320" height="320"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="gJO-VK-fSy" secondAttribute="height" multiplier="1:1" id="fQa-b2-TmF"/>
-                                </constraints>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -59,17 +62,22 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="MealName" destination="jlB-68-cT9" id="4sj-TX-mer"/>
-                        <outlet property="NameField" destination="pC9-Rv-igj" id="hRj-Wi-48m"/>
-                        <outlet property="setDefaultLabelText" destination="ead-Us-wgZ" id="gz5-oc-Thg"/>
+                        <outlet property="mealNameLabel" destination="jlB-68-cT9" id="4am-FF-nxa"/>
+                        <outlet property="nameTextField" destination="pC9-Rv-igj" id="yXE-1v-A1k"/>
+                        <outlet property="photoImageView" destination="qbs-Gp-sSY" id="GYF-2l-U3a"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="C71-hS-R23">
+                    <connections>
+                        <action selector="selectImageFromPhotoLibrary:" destination="BYZ-38-t0r" id="l46-Hh-ZVa"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="136.80000000000001" y="136.28185907046478"/>
         </scene>
     </scenes>
     <resources>
-        <image name="Default Photo" width="72" height="72"/>
+        <image name="Default Photo" width="540" height="540"/>
     </resources>
 </document>
