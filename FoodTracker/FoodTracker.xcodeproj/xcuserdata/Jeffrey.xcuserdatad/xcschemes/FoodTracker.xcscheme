@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "005B59721DC2746D00D3FC9C"
+               BlueprintIdentifier = "CA1902DB1B10E523000271C4"
                BuildableName = "FoodTracker.app"
                BlueprintName = "FoodTracker"
                ReferencedContainer = "container:FoodTracker.xcodeproj">
@@ -32,19 +32,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "005B59861DC2746F00D3FC9C"
+               BlueprintIdentifier = "CA1902EF1B10E523000271C4"
                BuildableName = "FoodTrackerTests.xctest"
                BlueprintName = "FoodTrackerTests"
-               ReferencedContainer = "container:FoodTracker.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "005B59911DC2746F00D3FC9C"
-               BuildableName = "FoodTrackerUITests.xctest"
-               BlueprintName = "FoodTrackerUITests"
                ReferencedContainer = "container:FoodTracker.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -52,7 +42,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "005B59721DC2746D00D3FC9C"
+            BlueprintIdentifier = "CA1902DB1B10E523000271C4"
             BuildableName = "FoodTracker.app"
             BlueprintName = "FoodTracker"
             ReferencedContainer = "container:FoodTracker.xcodeproj">
@@ -75,7 +65,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "005B59721DC2746D00D3FC9C"
+            BlueprintIdentifier = "CA1902DB1B10E523000271C4"
             BuildableName = "FoodTracker.app"
             BlueprintName = "FoodTracker"
             ReferencedContainer = "container:FoodTracker.xcodeproj">
@@ -94,7 +84,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "005B59721DC2746D00D3FC9C"
+            BlueprintIdentifier = "CA1902DB1B10E523000271C4"
             BuildableName = "FoodTracker.app"
             BlueprintName = "FoodTracker"
             ReferencedContainer = "container:FoodTracker.xcodeproj">
