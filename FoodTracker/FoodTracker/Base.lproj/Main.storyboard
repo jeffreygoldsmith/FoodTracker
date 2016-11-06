@@ -7,7 +7,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Meal Table View Controller-->
+        <!--Your Meals-->
         <scene sceneID="rUa-q7-Qdt">
             <objects>
                 <tableViewController id="0F4-Ni-ASP" customClass="MealTableViewController" customModule="FoodTracker" customModuleProvider="target" sceneMemberID="viewController">
@@ -53,7 +53,13 @@
                             <outlet property="delegate" destination="0F4-Ni-ASP" id="QTz-SL-myg"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="E05-1e-5ps"/>
+                    <navigationItem key="navigationItem" title="Your Meals" id="E05-1e-5ps">
+                        <barButtonItem key="rightBarButtonItem" title="+" id="HMP-hY-wxm">
+                            <connections>
+                                <segue destination="BYZ-38-t0r" kind="presentation" id="nU7-dj-wbI"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkQ-0B-6pA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -62,7 +68,7 @@
         <!--Meal View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" userLabel="Meal View Controller" customClass="ViewController" customModule="FoodTracker" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" userLabel="Meal View Controller" customClass="MealViewController" customModule="FoodTracker" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
