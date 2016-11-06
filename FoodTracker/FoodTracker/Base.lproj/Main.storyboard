@@ -28,7 +28,7 @@
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ekL-hb-d88">
-                                            <frame key="frameInset" minX="97" minY="8" width="240" height="21"/>
+                                            <frame key="frameInset" minX="97" minY="8" width="495" height="21"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
@@ -55,7 +55,7 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Your Meals" id="E05-1e-5ps">
-                        <barButtonItem key="rightBarButtonItem" title="+" id="HMP-hY-wxm" userLabel="Add">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="HMP-hY-wxm" userLabel="Add">
                             <connections>
                                 <segue destination="Ssy-AU-sw9" kind="presentation" identifier="AddItem" id="nU7-dj-wbI"/>
                             </connections>
